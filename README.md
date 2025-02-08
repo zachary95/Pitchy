@@ -173,23 +173,14 @@ enum Error: ErrorType {
 
 ## Installation
 
-**Pitchy** is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+This fork of **Pitchy** is only available to install using Swift Package Manager.
 
-```ruby
-pod 'Pitchy'
-```
-
-**Pitchy** is also available through [Carthage](https://github.com/Carthage/Carthage).
-To install just write into your Cartfile:
-
-```ruby
-github "vadymmarkov/Pitchy"
-```
 
 ## Author
 
 Vadym Markov, markov.vadym@gmail.com
+
+Swift Package Manager support by Zachary E. Dahan
 
 ## Contributing
 

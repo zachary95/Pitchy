@@ -6,7 +6,7 @@ public struct NoteCalculator {
     public static let octave = 4
   }
 
-  public static var letters: [Note.Letter] = [
+  public static let letters: [Note.Letter] = [
     .A,
     .ASharp,
     .B,
@@ -120,7 +120,7 @@ public struct NoteCalculator {
     try validate(octave: octave)
 
     let count = letters.count
-    let letterIndex = letters.index(of: letter) ?? 0
+    let letterIndex = letters.firstIndex(of: letter) ?? 0
     let offset = letterIndex < 3 ? 0 : count
 
     return letterIndex + count * (octave - Standard.octave) - offset

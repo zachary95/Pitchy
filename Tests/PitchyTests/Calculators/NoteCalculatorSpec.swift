@@ -1,9 +1,9 @@
 @testable import Pitchy
+
 import Quick
 import Nimble
 
 class NoteCalculatorSpec: QuickSpec {
-
   override func spec() {
     let notes = [
       (index: 0, note: Note.Letter.A, octave: 4, frequency: 440.0),

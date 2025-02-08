@@ -1,5 +1,5 @@
 public struct Note {
-  public enum Letter: String {
+  public enum Letter: String, Sendable {
     case C = "C"
     case CSharp = "C#"
     case D = "D"
@@ -13,7 +13,7 @@ public struct Note {
     case ASharp = "A#"
     case B = "B"
 
-    public static var values = [
+  public static let values = [
       C,
       CSharp,
       D,
